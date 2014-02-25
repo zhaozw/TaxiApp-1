@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icontaxi" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:hint="Usuario"
+        android:textColor="#e9b418" >
+
+   
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/txtUsuario"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_marginTop="21dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint=" Contraseña"
+        android:textColor="#e9b418" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtContrasena"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/btnlogin" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="305dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/btnTwitter"
+        android:layout_below="@+id/btnGo"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/btnfb" />
+
+    <Button
+        android:id="@+id/btnTwitter"
+        android:layout_width="305dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/btnGo"
+        android:layout_below="@+id/btnGo"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/btntwitter" />
+
+    <Button
+        android:id="@+id/ButtonGooglePlus"
+        android:layout_width="305dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/btnGo"
+        android:layout_below="@+id/Button01"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btngoogle" />
+
+</RelativeLayout>

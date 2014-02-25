@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#e9e8e7"
+     >
+
+    <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_stick" />
+
+    <TextView
+        android:id="@+id/txtItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="trebuchet"
+        android:textColor="#e4a71a"
+        android:textSize="12sp"
+        android:text="Taxi"
+        
+         />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/fondo"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic1" />
+    
+    
+    
+     <RelativeLayout 
+         android:layout_width="wrap_content"
+    	 android:layout_height="300dp" 
+         android:background="#60fcbf00"
+         android:paddingTop="120dp">
+          
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/btnTaxista"
+             android:layout_alignBottom="@+id/btnTaxista"
+             android:layout_toLeftOf="@+id/btnTaxista"
+             android:text="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500" />
+
+     </RelativeLayout>
+</RelativeLayout>

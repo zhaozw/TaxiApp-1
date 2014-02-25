@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnTaxi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/solicitar"
+         />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1.0"
+        android:layout_below="@+id/button1" >
+
+        <Button
+            android:id="@+id/btnTips"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/m2" />
+
+        <Button
+            android:id="@+id/btnTaxista"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/m3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1.0"
+        android:layout_below="@+id/linearLayout1" >
+
+        <Button
+            android:id="@+id/btnReservacion"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/m4" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/m5" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSugerencia"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_weight="1.0"
+        android:layout_below="@+id/linearLayout2"
+        android:background="@drawable/m6" />
+    <Button
+        android:id="@+id/btnTour"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_weight="1.0"
+        android:layout_below="@+id/linearLayout2"
+        android:background="@drawable/m7" />
+
+    </LinearLayout>
+    
+</RelativeLayout>

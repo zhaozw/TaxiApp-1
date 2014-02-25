@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2" >
+ 
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ 
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Button
+        android:id="@+id/btnCanTaxi"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/botoncancelar"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/btnSolicitar"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:layout_alignBaseline="@+id/btnCanTaxi"
+        android:layout_alignBottom="@+id/btnCanTaxi"
+        android:layout_toRightOf="@+id/btnCanTaxi"
+        android:background="@drawable/botoncancelar"
+        android:text="Solicitar" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+ 
+</RelativeLayout>

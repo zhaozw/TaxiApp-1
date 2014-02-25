@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f_back"
+    android:orientation="vertical"
+    android:paddingBottom="70dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="70dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#99e4a71a"
+        android:paddingBottom="20dp" 
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/buttonN"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonD"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/img_red"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Ocupado"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="¿Cual es tu estado?"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonN"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_green"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Disponible"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</RelativeLayout>

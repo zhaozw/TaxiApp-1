@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/fondo"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    
+    <RelativeLayout  
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:background="@drawable/cuadronaranja">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/signo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFF"
+            android:text="¿Desea cancelar su solicitud?" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="125dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="51dp"
+            android:background="@drawable/botoncancelar"
+            android:text="No" />
+
+        <Button
+            android:id="@+id/btnSi"
+            android:layout_width="125dp"
+            android:layout_height="55dp"
+            android:layout_alignBaseline="@+id/Button01"
+            android:layout_alignBottom="@+id/Button01"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/Button01"
+            android:background="@drawable/botoncancelar" 
+            android:text="Si"/>
+    
+	</RelativeLayout>
+</RelativeLayout>

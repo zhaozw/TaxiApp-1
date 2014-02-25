@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f_back"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_launcher" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/img_edit"
+                android:ems="10"
+                android:hint="Nombre"
+                android:paddingLeft="10dp"
+                android:textColor="#de971b" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/editText1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/img_edit"
+                android:ems="10"
+                android:hint="Numero de telefono"
+                android:paddingLeft="10dp"
+                android:textColor="#de971b" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/editText2"
+                android:layout_centerHorizontal="true" 
+                android:layout_marginTop="20dp"
+                android:background="@drawable/img_edit"
+                android:ems="10"
+                android:hint="Correo electronico"
+                android:paddingLeft="10dp"
+                android:textColor="#de971b" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/editText3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/img_edit"
+                android:ems="10"
+                android:hint="Direccion de recogida"
+                android:paddingLeft="10dp"
+                android:textColor="#de971b" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/editText4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/img_edit"
+                android:ems="10"
+                android:hint="Fecha/Hora"
+                android:paddingLeft="10dp"
+                android:textColor="#de971b" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/editText5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/img_edit"
+                android:ems="10"
+                android:hint="Destino"
+                android:paddingLeft="10dp"
+                android:textColor="#de971b" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/editText6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/list_selector_item_productos"
+                android:paddingBottom="10dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingTop="10dp"
+                android:text="Reservar"
+                android:textColor="#FFF" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9e8e7" >
+
+     <fragment 
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        />
+
+     <Button
+         android:id="@+id/buttonPublicar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/map"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="35dp"
+         android:paddingLeft="50dp"
+         android:paddingRight="50dp"
+         android:paddingTop="10dp"
+         android:paddingBottom="10dp"
+         android:text="Publicar"
+         android:textColor="#fff"
+         android:background="@drawable/list_selector_item_productos" />
+
+</RelativeLayout>

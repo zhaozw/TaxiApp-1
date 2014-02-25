@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="649dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnTaxi"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/solicitar" />
+
+        <Button
+            android:id="@+id/btnTaxista"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnTaxi"
+            android:background="@drawable/m3" />
+
+ 
+        <Button
+            android:id="@+id/btnTips"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/btnTaxi"
+            android:layout_toLeftOf="@+id/btnTaxista"
+            android:background="@drawable/m2" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnTaxista"
+            android:background="@drawable/m5" />
+
+        <Button
+            android:id="@+id/btnReservacion"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnTaxista"
+            android:background="@drawable/m4" />
+
+        <Button 
+            android:id="@+id/btnSugerencia"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnCancelar"
+            android:background="@drawable/m6" />
+ 
+        <Button 
+            android:id="@+id/btnTour"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnSugerencia"
+            android:background="@drawable/m7" />
+
+    </RelativeLayout>
+
+</ScrollView>
